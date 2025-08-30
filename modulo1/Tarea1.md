@@ -1,6 +1,15 @@
 # Tarea 1
 
-## 1. Investigue y anote las definiciones de los siguientes conceptos
+- [Tarea 1](#tarea-1)
+  - [Teaorica](#teaorica)
+    - [1. Investigue y anote las definiciones de los siguientes conceptos](#1-investigue-y-anote-las-definiciones-de-los-siguientes-conceptos)
+    - [2. Investigue algunos tipos de bases de datos no relacionales](#2-investigue-algunos-tipos-de-bases-de-datos-no-relacionales)
+    - [3. Investigue en qué consisten los siguientes conceptos](#3-investigue-en-qué-consisten-los-siguientes-conceptos)
+  - [Práctica](#práctica)
+
+
+## Teaorica
+### 1. Investigue y anote las definiciones de los siguientes conceptos
 
 Sea breve y conciso:
 
@@ -48,7 +57,7 @@ Sea breve y conciso:
    Un token es un conjunto de caracteres que tiene un significado semántico para un modelo. La tokenización es el proceso de convertir las palabras de la instrucción en tokens.
    [Documentación](https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-tokens)
 
-## 2. Investigue algunos tipos de bases de datos no relacionales
+### 2. Investigue algunos tipos de bases de datos no relacionales
 
 Anote cómo funcionan,características, pros y contras, así como casos de uso en la vida real.
 
@@ -65,7 +74,7 @@ NOTA: Es importante mencionar que algunos gestores de Base de Datos pueden crear
 [Chatgpt]
 **Prompt**: Anote cómo funcionan,características, pros y contras, así como casos de uso en la vida real. |Base de datos| Descripción | Pros y Contras | Caso de Uso| |---|----|---|---| | Redis, Memcache | | | | | MongoDB, CouchDB | | | | | InfluxDB, Prometheus | | | | | Qdrant, milvus | | | |
 
-## 3. Investigue en qué consisten los siguientes conceptos
+### 3. Investigue en qué consisten los siguientes conceptos
 
 Anote su importancia y utilidad en machine learning e inteligencia artificial.
 
@@ -75,3 +84,25 @@ Anote su importancia y utilidad en machine learning e inteligencia artificial.
 4. Descomposición en matrices
 
 [http://personal.cimat.mx:8181/~alram/met_num/clases.html](http://personal.cimat.mx:8181/~alram/met_num/clases.html)
+
+## Práctica
+
+1. (Utilice el archivo grupos.csv). Se realizó un muestreo simple a la población estudiantil de una preparatoria. Se registró la altura de las personas (medida en metros). su género (**M** indica masculino, **F** femenino) y el grupo al que pertenecen (**A**,**B** o **C**).
+Se desea conocer lo siguiente:
+
+   - ¿La altura general se distribuye normal?
+     > Respuesta
+   - ¿La altura por género se distribuye normal?
+     > Respuesta
+   - ¿Existen diferencias significativas en la distribución de las alturas con respecto a los grupos?
+     > Respuesta
+
+1. (Utilice el archivo ingresos.csv). Un sociólogo quiere analizar si existe relación entre el sexo de las personas (**Hombre/Mujer**) y sus rangos de ingresos mensuales. Se tiene una muestra de trabajadores, y se desea saber si los ingresos son independientes del género. Si las variables no son independientes, comente a su criterio personal por qué sucede esto.
+   > Respuesta:
+
+1. (Utilice el archivo hipertension.csv) Se estudia a un grupo de pacientes con hipertensión, cuyas mediciones de presión sistólica estaban por encima de los 130 mmHg. Se registraron estos datos antes de un tratamiento experimental y posteriormente se registró si segu ́ıan teniendo niveles de presión sistólica altos después del tratamiento. Los datos indica 1 si el paciente presenta presión arterial alta, y cero si no. Queremos saber si el tratamiento tuvo efecto. (Hint: Utiliza la prueba de McNemar).
+   > Respuesta:
+1. (Utilice el archivo medias.csv) En una empresa de marketing se registraron las eda- des de los empleados de dos áreas distintas: Producción y Administración. Se quiere saber si existe diferencia significativa en la edad promedio de las áreas.
+   > Respuesta:
+1. (Utilice el archivo winequality-red.csv) Un laboratorio enológico analiza variables fisicoqu ́ımicas de diferentes vinos tintos. Se desea estudiar la relación entre la acidez volátil y la acidez fija. Se sospecha que no existe correlación lineal.
+   > Respuesta:
